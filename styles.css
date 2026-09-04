@@ -1,3 +1,5 @@
+/* MAIN ELEMENTS */
+
 section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -42,6 +44,19 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #001326;
+  opacity: 0.9;
+
+  padding: 0;
+  margin: 0;
+}
+
 p {
   font-family: 'Inter';
   font-size: 14px;
@@ -54,3 +69,6 @@ p {
   padding: 0;
   margin: 0;
 }
+
+/* HEADER ELEMENTS */
+
