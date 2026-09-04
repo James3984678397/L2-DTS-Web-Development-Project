@@ -78,6 +78,43 @@ p {
   margin: 0;
 }
 
+.cta-elements-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-button {
+    background-color: #fffc00;
+    border: none;
+    border-radius: 2px;
+
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 15px;
+    line-height: normal;
+    letter-spacing: normal;
+
+    padding: 10px; 
+    margin-left: auto;
+
+    display: inline-block;
+}
+.cta-button:hover { opacity: 0.8; }
+
+.cta-button-under-text {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #001326;
+    opacity: 0.7;
+
+    padding: 0;
+    margin: 0;
+}
+
 /* HEADER ELEMENTS */
 
 .home-header-yellow-top-bar {
@@ -182,3 +219,4 @@ header {
 
     display: inline-block;
 }
+.home-main-header-cta-button:hover { opacity: 0.8; }
