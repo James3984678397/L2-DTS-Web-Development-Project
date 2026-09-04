@@ -29,7 +29,7 @@ h1 {
 
 h2 {
   font-family: 'Inter';
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
   line-height: normal;
   letter-spacing: normal;
@@ -96,7 +96,8 @@ p {
     letter-spacing: normal;
 
     padding: 10px; 
-    margin-left: auto;
+
+    width: 190px;
 
     display: inline-block;
 }
@@ -220,3 +221,41 @@ header {
     display: inline-block;
 }
 .home-main-header-cta-button:hover { opacity: 0.8; }
+
+/* HERO SECTION */
+
+.home-hero-section {
+    padding: 0;
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP._q5dTwRKCybteTOKeaqlcwHaFS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+}
+
+.home-hero-section-bg-image-darkener-div {
+    background-color: rgba(0, 19, 38, 0.8);
+}
+
+.home-hero-section-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 50%;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.home-hero-section-h2 {
+    color: #f5f5f1;
+    opacity: 0.9;
+}
+
+.home-hero-section-h1 {
+    color: #f5f5f1;
+}
+
+.home-hero-section-p {
+    color: #f5f5f1;
+    opacity: 0.8;
+}
