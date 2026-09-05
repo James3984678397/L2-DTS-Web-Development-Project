@@ -283,7 +283,7 @@ header {
 .home-hero-section-yellow-bottom-bar-group-container {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
     
     align-items: center;
 
@@ -292,8 +292,8 @@ header {
 }
 
 .home-hero-section-yellow-bottom-bar-icon-image {
-    width: 35px;
-    height: 35px;
+    width: 28px;
+    height: 28px;
     object-fit: cover;
 
     border: none;
@@ -304,4 +304,61 @@ header {
     font-weight: bold;
     font-size: 14px;
     color: #001326;
+}
+
+/* SERVICES SECTION */
+
+.home-services-section {
+    background-color: #f5f5f1;
+}
+
+.home-services-section-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    align-items: center;
+}
+
+.section-text-elements-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    align-items: center;
+}
+
+.home-services-section-service-card-grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.home-services-section-service-card {
+    background-color: #001326;
+    border: none;
+    border-radius: 2px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.home-services-section-service-card-icon-image {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+
+    border: none;
+    border-radius: 2px;
+}
+
+.home-services-section-service-card-header {
+    color: #f5f5f1;
+}
+
+.home-services-section-service-card-p-text {
+    color: #f5f5f1;
 }
