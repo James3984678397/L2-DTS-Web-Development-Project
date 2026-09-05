@@ -478,6 +478,10 @@ header {
 
 /* SERVICE AREA SECTION */
 
+.home-service-area-section {
+    background-color: #f5f5f1;
+}
+
 .home-service-area-section-content-container {
     display: flex;
     flex-direction: column;
@@ -492,4 +496,18 @@ header {
 
     border: none;
     border-radius: 2px;
+}
+
+/* CONTACT SECTION */
+
+.home-contact-section {
+    background-color: #e8e8e4;
+}
+
+.home-contact-section-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    align-items: center;
 }
