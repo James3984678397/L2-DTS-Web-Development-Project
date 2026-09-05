@@ -194,7 +194,7 @@ header {
     margin-left: 40px;
 }
 
-.home-header-navigation-page-button {
+.navigation-page-button {
     font-family: 'Inter';
     font-size: 15px;
     font-weight: bold;
@@ -211,7 +211,7 @@ header {
 
     transition: text-decoration 0.1s;
 }
-.home-header-navigation-page-button:hover { text-decoration: underline; }
+.navigation-page-button:hover { text-decoration: underline; }
 
 .home-main-header-cta-button {
     background-color: #fffc00;
@@ -509,5 +509,42 @@ header {
     flex-direction: column;
     gap: 20px;
     
+    align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #001326;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    align-items: center;
+
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-logo-image {
+    width: 200px;
+    object-fit: cover;
+}
+
+.footer-navigation-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
     align-items: center;
 }
