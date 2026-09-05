@@ -427,7 +427,7 @@ header {
 .home-why-us-section-why-us-bullets-container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 
 .home-why-us-section-why-us-bullet {
@@ -469,7 +469,25 @@ header {
     display: inline-block;
 
     width: 500px;
-    height: 650px;
+    height: 700px;
+    object-fit: cover;
+
+    border: none;
+    border-radius: 2px;
+}
+
+/* SERVICE AREA SECTION */
+
+.home-service-area-section-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    align-items: center;
+}
+
+.home-service-area-section-service-area-map {
+    width: 1000px;
     object-fit: cover;
 
     border: none;
