@@ -15,6 +15,12 @@ section {
   padding-right: 20px;
 }
 
+.section-text-elements-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 h1 {
   font-family: 'Inter';
   font-size: 40px;
@@ -320,14 +326,6 @@ header {
     align-items: center;
 }
 
-.section-text-elements-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    align-items: center;
-}
-
 .home-services-section-service-card-grid {
     display: grid;
     grid-template-columns: 400px 400px 400px;
@@ -361,4 +359,119 @@ header {
 
 .home-services-section-service-card-p-text {
     color: #f5f5f1;
+}
+
+/* WHY US SECTION */
+
+.home-why-us-section {
+    background-color: #e8e8e4;
+}
+
+.home-why-us-section-column-flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.home-why-us-section-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.home-why-us-section-credibility-bullet-wrapper {
+    display: inline-block;
+}
+
+.home-why-us-section-credibility-bullet {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.home-why-us-section-credibility-bullet-tick-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+
+    border: none;
+    border-radius: 2px;
+}
+
+.home-why-us-section-credibility-bullet-text {
+    font-weight: bold;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.home-why-us-section-credibility-bullet-text-rating-link {
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #001326;
+    opacity: 0.8;
+
+    padding: 0;
+    margin: 0;
+
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+.home-why-us-section-why-us-bullets-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.home-why-us-section-why-us-bullet {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.home-why-us-section-benefit-bullet-icon-and-header-container {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.home-why-us-section-benefit-bullet-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+
+    border: none;
+    border-radius: 2px;
+}
+
+.home-why-us-section-benefit-bullet-header {
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.home-why-us-section-benefit-bullet-text {
+    font-size: 13px;
+}
+
+.home-why-us-section-right-image-container {
+    display: inline-block;
+}
+
+.home-why-us-section-right-image {
+    display: inline-block;
+
+    width: 500px;
+    height: 650px;
+    object-fit: cover;
+
+    border: none;
+    border-radius: 2px;
 }
