@@ -4,20 +4,12 @@
 
     <head>
 
-        <!--META DATA-->
-
         <title>Recent Electrical Repairs For Homeowners | Auckland Residential Electrical</title>
         <meta name="description" content="See the recent repairs and projects we’ve done for homeowners across Auckland.">
-
-        <!--FONT CONNECTION-->
-
+        <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-        
-        <!--STYLESHEET CONNECTION-->
-
-        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     </head>
 
@@ -25,131 +17,56 @@
 
         <header>
 
-            <!--YELLOW TOP BAR-->
+            <!---YELLOW TOP HEADER BAR-->
 
-            <div class="home-header-yellow-top-bar">
+            <div class="yellow-top-header-bar">
 
-                <div class="home-header-yellow-top-bar-elements-container"> <!--HOLDS EMAIL, PHONE, & SERVICE AREA ELEMENTS IN A FLEX CONTAINER-->
+                <div class="yellow-top-header-bar-content-container">
 
-                    <a class="home-header-yellow-top-bar-links">Email: <strong>support@aucklandresidentialelectrical.co.nz</strong></a>
-                    <a class="home-header-yellow-top-bar-links">Phone: <strong>+64 123 456 789</strong></a>
-                    <a class="home-header-yellow-top-bar-links">Servicing: <strong>From The North Shore To Auckland City</strong></a> <!--LINKS TO A GOOGLE MAPS PROFILE-->
-                    
+                    <button class="yellow-top-header-bar-button" href="___">Email <strong>support@aucklandresidentialelectrical.co.nz</strong></button>
+                    <button class="yellow-top-header-bar-button" href="___">Call <strong>+64 0800 123 456</strong></button>
+                    <button class="yellow-top-header-bar-button" href="___">Servicing <strong>Across Auckland</strong></button>
+
                 </div>
 
             </div>
 
-            <div class="home-main-header-content-container"> <!--HOLDS MAIN HEADER ELEMENTS IN A CONTAINER-->
+            <!---MAIN HEADER-->
 
-                <img class="home-header-logo-image" src="C:\Users\23173\OneDrive - Long Bay College\DTS Project 3\Code\HTML\Images\Auckland_Residential_Electrical_Logo_Small.jpg">
+            <div class="header-content-container">
 
-                <div class="home-header-navigation-bar"> <!--HOLDS NAVIGATION ITEMS IN A FLEX CONTAINER-->
+                <img class="logo-image" src="Images/Auckland_Residential_Electrical_Logo_Small.jpg" href="___">
 
-                    <a class="navigation-page-button">Home</a>
-                    <a class="navigation-page-button">Recent Work</a>
-                    <a class="navigation-page-button">Contact</a>
+                <div class="navigation-bar-container">
+
+                    <button class="navigation-button">Home</button>
+                    <button class="navigation-button">Recent Work</button>
+                    <button class="navigation-button">Projects</button>
 
                 </div>
 
-                <button class="home-main-header-cta-button">CALL <strong>+64 123 456 789</strong></button>
+                <button class="header-phone-button">CALL <strong>+64 123 456 789</strong></button>
 
             </div>
-            
+
         </header>
 
-        <section class="breadcrumb-section">
+        <section style="background-color: rgba(255, 252, 0, 0.4); padding-top: 30px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;">
 
-            <div class="section-text-elements-container" style="margin-left: 20px; padding-top: 30px; margin-bottom: 30px;"> <!--FLEX CONTAINER SEPERATES TEXT ELEMENTS VERTICALLY; STYLING CREATES SECTION SPACING-->
+            <div style="display: flex; flex-direction: column; gap: 20px; padding-bottom: 30px; margin-left: 20px;">
 
-                <h1 style="font-size: 28px;">Recent Electrical Repairs Auckland</h1>
+                <h1>Recent Electrical Repairs Auckland</h1>
                 <p>See the recent repairs and projects we’ve done for homeowners across Auckland.</p>
 
             </div>
 
-            <div class="breadcrumb-section-yellow-bottom-bar"> <!--YELLOW BAR AT THE BOTTOM OF SECTION-->
+            <div class="hero-section-yellow-bottom-bar">
 
-                <!--CONTAINS ALL BREADCRUMB ELEMENTS & SPACES THEM EVENLY-->
-                <div class="breadcrumb-container"><a class="breadcrumb-link">Home</a><p class="breadcrumb-divider"> / </p><a class="breadcrumb-link">Recent Work</a></div>
-
-            </div>
-
-        </section>
-
-        <section class="recent-work-section">
-
-            <div class="recent-work-cards-grid"> <!--GRID CONTAINING RECENT WORK CARDS-->
-
-                <div class="recent-work-card"> <!--CARD OF RECENT WORK ITEM-->
-
-                    <img class="recent-work-card-image" src="https://tse4.mm.bing.net/th/id/OIP._q5dTwRKCybteTOKeaqlcwHaFS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
-                    <h4 class="recent-work-card-header">Blown Fuse Repair North shore</h4>
-                    <p class="recent-work-card-text">Repaired blown fuse within two hours of dispatch. “Prompt and punctual. They didn’t lie when they said they’d be there in half an hour.” - happy customer</p>
-
-                </div>
-
-                <div class="recent-work-card"> <!--CARD OF RECENT WORK ITEM-->
-
-                    <img class="recent-work-card-image" src="https://tse1.mm.bing.net/th/id/OIP.TinbivAtEvsfiKOY4fpGFwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
-                    <h4 class="recent-work-card-header">Flickering Lights Fix New Lynn</h4>
-                    <p class="recent-work-card-text">Flickering lights back to normal in just half an hour. “It was so easy working with them!” - happy customer</p>
-
-                </div>
-
-                <div class="recent-work-card"> <!--CARD OF RECENT WORK ITEM-->
-
-                    <img class="recent-work-card-image" src="https://tse3.mm.bing.net/th/id/OIP.MxeTEg5av0PK7qDiT3oQcgHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
-                    <h4 class="recent-work-card-header">Power-Out Fix Grey Lynn</h4>
-                    <p class="recent-work-card-text">Power back up and running in just hours. “This crew is the best I’ve ever called. Polite & fast. Call them!” - happy customer</p>
-
-                </div>
+                <p style="font-size: 16px; font-weight: bold;"><u>Home</u> / <u>Recent Work</u></p>
 
             </div>
 
         </section>
-
-        <section class="home-contact-section">
-
-            <div class="home-contact-section-content-container"> <!--FLEX CONTAINER SEPERATES CONTENT VERTICALLY-->
-
-                <div class="section-text-elements-container" style="align-items: center;"> <!--FLEX CONTAINER SEPERATES TEXT ELEMENTS VERTICALLY-->
-
-                    <h3>CONTACT AUCKLAND ELECTRICAL SERVICES</h3>
-                    <h2>Need An Auckland Electrician Now?</h2>
-
-                </div>
-
-                <div class="cta-elements-container" style="align-items: center;"> <!--CONTAINS CTA BUTTON + UNDER TEXT-->
-                    <button class="cta-button">CALL <strong>+64 123 456 789</strong></button>
-                    <p class="cta-button-under-text">Speak To An Auckland Electrician Now</p>
-                </div>
-
-            </div>
-
-        </section>
-
-        <footer>
-
-            <div class="footer-content-container">
-
-                <img class="footer-logo-image" src="C:\Users\23173\OneDrive - Long Bay College\DTS Project 3\Code\HTML\Images\Auckland_Residential_Electrical_Logo_Small.jpg">
-                <p style="color: #f5f5f1; text-align: center;">Providing reliable, rapid-response electrical repair services for homeowners in Auckland. Get a home electrical repair specialist at your home within an hour, guaranteed.</p>
-               
-                <div class="footer-navigation-bar">
-
-                    <a class="navigation-page-button">Home</a>
-                    <a class="navigation-page-button">Recent Work</a>
-                    <a class="navigation-page-button">Contact</a>
-
-                </div>
-
-                <div class="cta-elements-container" style="align-items: center;"> <!--CONTAINS CTA BUTTON + UNDER TEXT-->
-                    <button class="cta-button">CALL <strong>+64 123 456 789</strong></button>
-                    <p class="cta-button-under-text" style="color: #f5f5f1;">Speak To An Auckland Electrician Now</p>
-                </div>
-
-            </div>
-
-        </footer>
 
     </body>
 
